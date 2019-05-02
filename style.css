@@ -1,0 +1,173 @@
+	body{
+	margin:0;
+	background-color: #f3f3f3;
+	color:#333;
+	font-size: 18px;
+	font-family: serif;
+	line-height: 1.6em
+}
+.container{
+	overflow: hidden;
+	width:90%;
+	margin:auto;
+}
+#header{
+	background-color: coral;
+	color:black;
+}
+#header img{
+	width:80px;
+	margin-left:0;
+}
+#header h1{
+	text-shadow: 2px 2px 5px grey;
+	font-weight: bold;
+}
+.push{
+	float:right;
+}
+
+.item img{
+	width:100%;
+}
+#main{
+	float:left;
+	padding:30px;
+	box-sizing: border-box;
+}
+.navbar {
+	border-radius: 0 !important;
+}
+
+#footer{
+	background-color: #333;
+	padding: 10px;
+}
+#footer img{
+	width:30px;
+}
+#footer ul{
+	list-style: none;
+}
+#footer li{
+	display: inline;
+}
+#footer a{
+	text-decoration: none;
+	padding-right: 20px;
+}
+#footer p{
+	color:black;
+	padding-top: 10px;
+	padding-right: 10px	
+}
+@media(max-width:700px){
+	#navigation a{
+		font-size: 14px;
+		padding:0;	
+
+	}
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+		padding:10px;
+	}
+	#header img{
+			width:50px;
+	}
+	#header h1{
+		padding:0;
+	}
+	#footer{
+		padding:0;
+		font-size: 10px;
+	}
+}
+#form-container{
+	margin-left: 100px;
+	text-align: left;
+	width:60%;
+	line-height: 1.8em;	
+}
+#form-container input{
+	width:100%;
+}
+#maintenance img{
+	margin: 0 50px;
+	width:90%;
+	padding: 0 10px 10px 10px;
+}
+
+.window1{
+	float:left;
+	width:25%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.window1 a{
+	color:#333;
+}
+.window2{
+	float:right;
+	width:25%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.window2 a{
+	color:#333;
+}
+.window3{
+	float:left;
+	width:25%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.window3 a{
+	color:#333;
+}
+.window4{
+	float:left;
+	width:25%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.window4 a{
+	color:#333;
+}
+.grid-wrapper{
+	display:grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+.box img{
+	width:90%;
+	}
+.box a:hover{
+	background-color: #4286f4;
+	color:white;
+	text-decoration: none;
+	}
+
+.box{
+	background-color: black;
+	padding-top:10px;
+	margin:20px;
+	width:300px;
+	height:250px;
+	cursor: pointer;
+	text-align: center;
+}
+.zone a{
+	font-weight: bold;
+	border:2px solid white;
+	padding:5px;
+}
+#form-container img{
+	float:right;
+	width:200px;
+}
