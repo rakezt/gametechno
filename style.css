@@ -1,12 +1,15 @@
-	body{
-	margin:0;
-	background-color: #f3f3f3;
+body{
+	margin:0;		
 	color:#333;
 	font-size: 18px;
-	font-family: serif;
-	line-height: 1.6em
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 1.6em;
 }
-.container{
+.navbar { 
+	margin-bottom:0 !important;
+	border-radius: 0!important;
+}
+.container{	
 	overflow: hidden;
 	width:90%;
 	margin:auto;
@@ -29,15 +32,9 @@
 
 .item img{
 	width:100%;
+	
 }
-#main{
-	float:left;
-	padding:30px;
-	box-sizing: border-box;
-}
-.navbar {
-	border-radius: 0 !important;
-}
+
 
 #footer{
 	background-color: #333;
@@ -61,33 +58,7 @@
 	padding-top: 10px;
 	padding-right: 10px	
 }
-@media(max-width:700px){
-	#navigation a{
-		font-size: 14px;
-		padding:0;	
 
-	}
-	#main{
-		width:100%;
-		float:none;
-	}
-
-	#sidebar{
-		width:100%;
-		float:none;
-		padding:10px;
-	}
-	#header img{
-			width:50px;
-	}
-	#header h1{
-		padding:0;
-	}
-	#footer{
-		padding:0;
-		font-size: 10px;
-	}
-}
 #form-container{
 	margin-left: 100px;
 	text-align: left;
@@ -97,55 +68,69 @@
 #form-container input{
 	width:100%;
 }
+#form-container img{
+	float:right;
+	width:200px;
+}
 #maintenance img{
 	margin: 0 50px;
 	width:90%;
 	padding: 0 10px 10px 10px;
 }
+#main {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;	
+}
+#main iframe{
+	width:45%;
+	height: 350px;
+	margin:auto;
+}
 
-.window1{
+.window1,.window2, .window3, .window4{
 	float:left;
 	width:25%;
 	padding:10px;
 	box-sizing: border-box;
 }
-.window1 a{
+.window1 ul,.window2 ul, .window3 ul, .window4 ul{
+	
+}
+.window1 a, .window2 a, .window3 a, .window4 a{
 	color:#333;
 }
-.window2{
-	float:right;
-	width:25%;
-	padding:10px;
-	box-sizing: border-box;
+.window1 a:hover{
+	font-weight: bold;
+	text-decoration: none;
 }
-.window2 a{
-	color:#333;
+.window2 a:hover{
+	font-weight: bold;
+	text-decoration: none;
 }
-.window3{
-	float:left;
-	width:25%;
-	padding:10px;
-	box-sizing: border-box;
+.window3 a:hover{
+	font-weight: bold;
+	text-decoration: none;
 }
-.window3 a{
-	color:#333;
+.window4 a:hover{
+	font-weight: bold;
+	text-decoration: none;
 }
-.window4{
-	float:left;
-	width:25%;
-	padding:10px;
-	box-sizing: border-box;
+.service{
+	text-align: center;
 }
-.window4 a{
-	color:#333;
+.service img{
+	width:30%;
 }
 .grid-wrapper{
-	display:grid;
-	grid-gap: 10px;
+	display:flex;
+	
 	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
 }
 .box img{
 	width:90%;
+	padding:20px;
+	
 	}
 .box a:hover{
 	background-color: #4286f4;
@@ -154,20 +139,16 @@
 	}
 
 .box{
-	background-color: black;
-	padding-top:10px;
+	background-color: black;	
 	margin:20px;
-	width:300px;
-	height:250px;
+	width:100%;
+	height:250%;
 	cursor: pointer;
-	text-align: center;
+	text-align: center;	
 }
 .zone a{
 	font-weight: bold;
 	border:2px solid white;
 	padding:5px;
 }
-#form-container img{
-	float:right;
-	width:200px;
-}
+
