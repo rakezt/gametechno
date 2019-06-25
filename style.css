@@ -116,6 +116,9 @@ body{
 	font-weight: bold;
 	text-decoration: none;
 }
+.game{
+	text-align: center;
+}
 .service{
 	text-align: center;
 }
@@ -130,8 +133,7 @@ body{
 }
 .box img{
 	width:90%;
-	padding:20px;
-	
+	padding:20px;	
 	}
 .box a:hover{
 	background-color: #4286f4;
